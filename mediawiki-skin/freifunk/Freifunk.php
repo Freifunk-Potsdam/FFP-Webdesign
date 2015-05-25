@@ -19,8 +19,8 @@ class SkinFreifunk extends SkinTemplate {
 	/** Using freifunk. */
 	function initPage( OuputPage $out ) {
 		SkinTemplate::initPage( $out );
-		$this->skinname  = 'freifunk';
-		$this->stylename = 'freifunk';
+		$this->skinname  = 'Freifunk';
+		$this->stylename = 'Freifunk';
 		$this->template  = 'FreifunkTemplate';
 	}
 }
@@ -61,8 +61,6 @@ class FreifunkTemplate extends QuickTemplate {
                 <!--[if lte IE 7]>
                 <link href="<?php $this->text('stylepath') ?>/<?php $this->text('stylename') ?>/css/central_patches.css" rel="stylesheet" type="text/css" />
                 <![endif]-->
-
-		<?php print Skin::makeGlobalVariablesScript( $this->data ); ?>
 
 		<script type="<?php $this->text('jsmimetype') ?>" src="<?php $this->text('stylepath' ) ?>/common/wikibits.js?<?php echo $GLOBALS['wgStyleVersion'] ?>"><!-- wikibits js --></script>
 		<!-- Head Scripts -->
