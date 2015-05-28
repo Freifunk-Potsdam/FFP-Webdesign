@@ -68,6 +68,7 @@
 					<li><a href="http://wiki.freifunk-potsdam.de/">Wiki</a></li>
 					<li><a href="http://forum.freifunk-potsdam.de/">Forum</a></li>
 					<li><a href="http://karte.freifunk-potsdam.de/">Karte</a></li>
+					<li><a href="http://bilder.freifunk-potsdam.de/">Galerie</a></li>
 				</ul>
 				<div class="searchbox">
                                       <?php include(TEMPLATEPATH . '/searchform.php'); ?>
